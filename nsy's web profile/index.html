@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nesya | Front-End Developer</title>
+
+  <!-- Remix Icon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- ScrollReveal & GSAP -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">🫧Hi, Welcome to nesya's portofolio≽^•༚• ྀི≼</a>
+      <ul class="nav__list">
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#works" class="nav__link">Portfolio</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!-- Home Section -->
+    <section class="home section" id="home">
+      <div class="home__container container">
+        <div class="home__data">
+          <h1 class="home__title">Hi, I'm <span>Nesya</span></h1>
+          <h3 class="home__subtitle">Creative Front-End Developer</h3>
+          <p>I design modern websites with a touch of elegance and aesthetic vibes.</p>
+          <a href="#contact" class="button">Let's Connect</a>
+        </div>
+        <div class="home__img">
+          <img src="assets/img/me.jpg" alt="Profile" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <h2 class="section__title">~ 𝓐𝓫𝓸𝓾𝓽 𝓶𝓮 ~</h2>
+      <div class="about__container container">
+        <img src="assets/img/about.jpg" alt="About" class="about__img" />
+        <div class="about__data">
+          <p>My name is Nesya. I'm a student at SMK Negeri 1 Cianjur majoring in Software Engineering (RPL). I love
+            designing websites and digital content that are both beautiful and functional.</p>
+          <ul class="about__info">
+            <li><strong>School:</strong> SMK Negeri 1 Cianjur</li>
+            <li><strong>Major:</strong> Rekayasa Perangkat Lunak</li>
+            <li><strong>Location:</strong> Indonesia</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <h2 class="section__title">My Skills</h2>
+      <div class="skills__container container">
+        <div class="skills__data">
+          <h3>HTML / CSS</h3>
+          <div class="skills__bar"><span style="width: 90%;"></span></div>
+        </div>
+        <div class="skills__data">
+          <h3>JavaScript</h3>
+          <div class="skills__bar"><span style="width: 85%;"></span></div>
+        </div>
+        <div class="skills__data">
+          <h3>Python</h3>
+          <div class="skills__bar"><span style="width: 80%;"></span></div>
+        </div>
+        <div class="skills__data">
+          <h3>Photoshop / Illustrator</h3>
+          <div class="skills__bar"><span style="width: 75%;"></span></div>
+        </div>
+        <div class="skills__data">
+          <h3>CapCut Editing</h3>
+          <div class="skills__bar"><span style="width: 85%;"></span></div>
+        </div>
+        <div class="skills__data">
+          <h3>Canva Design</h3>
+          <div class="skills__bar"><span style="width: 88%;"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="work section" id="works">
+      <h2 class="section__title">My Projects</h2>
+      <div class="work__container container">
+        <!-- Project 1 -->
+        <div class="work__card">
+          <img src="assets/img/project1.png" alt="Portfolio Website" class="work__img" />
+          <h3 class="work__title">Personal Portfolio Website</h3>
+          <a href="https://github.com/nsyakiraninurroffi/PROJECT_WEB_PROFILE" target="_blank" class="work__button">
+            View <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="work__card">
+          <img src="assets/img/project2.png" alt="JS Project" class="work__img" />
+          <h3 class="work__title">HTML/JS Project</h3>
+          <a href="https://github.com/nsyakiraninurroffi/NSY_LEARN_JAVASCRIPT" target="_blank" class="work__button">
+            View <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+
+        <!-- Project 3 (Canva) -->
+        <div class="work__card">
+          <img src="assets/img/project3.png" alt="Canva Design" class="work__img" />
+          <h3 class="work__title">Canva Poster Design</h3>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="work__card">
+          <img src="assets/img/project4.png" alt="Python Weather App" class="work__img" />
+          <h3 class="work__title">Cek Cuaca Real-Time (Python GUI)</h3>
+          <a href="https://github.com/nsyakiraninurroffi/NSY_PROJECT_PYTHON/tree/main/PROJECT%201" target="_blank" class="work__button">
+            View <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="work__card">
+          <img src="assets/img/project5.png" alt="Nsy Project API-Music" class="work__img" />
+          <h3 class="work__title">Nsy Project API-Music</h3>
+          <a href="https://nsy-musicanswer.netlify.app/" target="_blank" class="work__button">
+            View <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="work__card">
+          <img src="assets/img/project6.png" alt="QR Code Scanner" class="work__img" />
+          <h3 class="work__title">QR Code Scanner</h3>
+          <a href="https://github.com/nsyakiraninurroffi/NSY_LEARN_JAVASCRIPT/tree/main/qr%20code" target="_blank" class="work__button">
+            View <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Get In Touch</h2>
+      <form class="contact__form" id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="button">Send Message</button>
+      </form>
+
+      <div class="contact__socials">
+        <h3 style="margin-bottom: 1rem;">Find Me On</h3>
+        <a href="https://github.com/nsyakiraninurroffi" target="_blank"><i class="ri-github-fill"></i></a>
+        <a href="https://www.instagram.com/nssyyayy?igsh=cnZuaXY4Nml1dHRm" target="_blank"><i class="ri-instagram-line"></i></a>
+        <a href="https://www.tiktok.com/@nyyysyy" target="_blank"><i class="ri-tiktok-fill"></i></a>
+        <a href="https://open.spotify.com/user/31q5wilal3vjsar4aukird42xzpy" target="_blank"><i
+            class="ri-spotify-fill"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Nesya Kirani Nurroffi. All rights reserved.</p>
+  </footer>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+
+</html>
